@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mastermind"
+version = "0.1.0"
+description = ""
+authors = ["'AvSchmude' <'adrian.v.schmude@outlook.de'>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+numpy = "^1.26.2"
+python-dotenv = "^1.0.0"
+flask-sqlalchemy = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
